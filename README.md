@@ -14,5 +14,9 @@ Simple helper scripts for installing and running Composer.
  * Add the install directory to the system path.
  * Symlink the `composer` script into your `bin` directory.
  
-##What is inside this project?
-asdf
+## What is inside this project?
+* Installer script: `composer-installer.bash`
+* Execution script with preset PHP options: `composer`
+
+## Why?
+* I have to run these commands for every project I work on, so I placed them here for easy use.
