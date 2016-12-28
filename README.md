@@ -10,7 +10,7 @@ Simple helper scripts for installing and running Composer.
 * If not on Windows, make the scripts executable:
  * `chmod 744 composer-install.bash`
  * `chmod 744 composer`
-* Run the installer: `composer-installer.bash`
+* Run the installer: `composer-install.bash`
 * Add the composer to your system path, either by:
  * Add the install directory to the system path.
  * Symlink the `composer` script into your `bin` directory.
