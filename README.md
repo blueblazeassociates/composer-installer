@@ -8,8 +8,7 @@ Simple helper scripts for installing and running Composer.
 * Create a directory where you want to install Composer.
 * Inside that directory, run (that last period is important): `git clone https://github.com/blueblazeassociates/composer-installer.git .`
 * If not on Windows, make the scripts executable:
- * `chmod 744 composer-install.bash`
- * `chmod 744 composer`
+ * `chmod 744 composer-install.bash && chmod 744 composer`
 * Run the installer: `composer-install.bash`
 * Add the composer to your system path, either by:
  * Add the install directory to the system path.
