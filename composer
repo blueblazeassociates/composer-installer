@@ -39,6 +39,6 @@ else
 	php="`which php`"
 fi
 
-PHP_OPTIONS="-d memory_limit=512M -d detect_unicode=Off -d allow_url_fopen=1 -d suhosin.executor.include.whitelist=phar"
+PHP_OPTIONS="-d memory_limit=512M -d detect_unicode=Off -d allow_url_fopen=1 -d open_basedir='' -d suhosin.executor.include.whitelist=phar"
 
 exec "$php" $PHP_OPTIONS "$SCRIPT_PATH" "$@"
