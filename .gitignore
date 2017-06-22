@@ -7,3 +7,6 @@
 
 # PHPStorm folders and files.
 /.idea
+
+# Composer files.
+/composer.phar
